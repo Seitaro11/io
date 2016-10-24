@@ -8,7 +8,7 @@ Tematem projektu jest stworzenie aplikacji PhotoMark pozwalającej nanieść mar
 
 ##### Marker
 
-Marker stanowi opis punktu zaznaczonego na obrazie przez pracownika. Składa się z pary współrzędnych i ewentualnej etykiety.
+Marker stanowi opis punktu zaznaczonego na obrazie przez pracownika. Składa się z pary współrzędnych i etykiety. Dodanie etykiety jest opcjonalnie - w przypadku, gdy zaistnieje taka potrzeba, administrator powinien zaznaczyć to w protokole.
 
 ##### Pakiet obrazów
 
@@ -16,9 +16,10 @@ Zestaw plików graficznych przeznaczonych do opisania markerami według załącz
 
 ##### Protokół
 
-Zestaw instrukcji dotyczących sposobu umieszczania markerów na obrazie. Jest dołączany do pakietu plików graficznych wysyłanych przez administratora.
+Zestaw instrukcji dotyczących sposobu umieszczania markerów na obrazie. Jest dołączany do pakietu obrazów wysyłanych przez administratora.
 
 ## Wymagania funkcjonalne
 
 ### Podział modularny
 
+Aplikacja powinna posiadać dwa niezależne od siebie moduły - pracownika i administratora. Administrator posiada możliwość przesyłania plików graficznych i protokołów do wybranych pracowników, zaś pracownik może przesyłać z powrotem pliki .xml zawierające naniesione markery.
