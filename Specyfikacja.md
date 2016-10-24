@@ -28,11 +28,11 @@ Aplikacja podzielona jest na dwa związane ze sobą moduły - administratora i p
 
 Administrator tworzy zadania będące pakietami obrazów, które mogą być:
 
-* opublikowane w systemie, kazdy pracownik przypisany w do autora zadania może podjąć się pracy nad pakietem, wtedy zadanie w systemie nie jest już widoczne dla reszty pracowników.
+* opublikowane w systemie, kazdy pracownik przypisany do autora zadania może podjąć się pracy nad pakietem, wtedy zadanie w systemie nie jest już widoczne dla reszty pracowników.
 * przypisane do konkretnego pracownika należącego do administratora.
 
 Administrator może przypisać do siebie użytkownika o ile ten nie należy do żadnego administratora. W innym wypadku może wyrazić prośbę o transfer pracownika do jego właściciela.
 
 ##### Użytkownik
 
-Użytkownik korzystając z narzędzi dostępnych w swoim module wykonuje zlecone zadania przez administratorów, ewentualnie rezerwuje sobie zadanie stworzone na forum systemu.
+Użytkownik korzystając z narzędzi dostępnych w swoim module wykonuje zlecone zadania przez administratorów, ewentualnie rezerwuje sobie zadanie stworzone na forum systemu. Po wykonaniu zadania odsyła rezultaty z powrotem do jego autora.
