@@ -22,4 +22,17 @@ Zestaw instrukcji dotyczących sposobu umieszczania markerów na obrazie. Jest d
 
 ### Podział modularny
 
-Aplikacja powinna posiadać dwa niezależne od siebie moduły - pracownika i administratora. Administrator posiada możliwość przesyłania plików graficznych i protokołów do wybranych pracowników, zaś pracownik może przesyłać z powrotem pliki .xml zawierające naniesione markery.
+Aplikacja podzielona jest na dwa związane ze sobą moduły - administratora i pracownika. Rola użytkowników w tych modułach jest następujące:
+
+##### Administrator
+
+Administrator tworzy zadania będące pakietami obrazów, które mogą być:
+
+* opublikowane w systemie, kazdy pracownik przypisany w do autora zadania może podjąć się pracy nad pakietem, wtedy zadanie w systemie nie jest już widoczne dla reszty pracowników.
+* przypisane do konkretnego pracownika należącego do administratora.
+
+Administrator może przypisać do siebie użytkownika o ile ten nie należy do żadnego administratora. W innym wypadku może wyrazić prośbę o transfer pracownika do jego właściciela.
+
+##### Użytkownik
+
+Użytkownik korzystając z narzędzi dostępnych w swoim module wykonuje zlecone zadania przez administratorów, ewentualnie rezerwuje sobie zadanie stworzone na forum systemu.
