@@ -1,0 +1,21 @@
+<root filename="nazwa_pliku.png">
+
+  <marker>
+    <position>
+      <x>250</x>
+      <y>400</y>
+    </position>
+    <label>Samochody jeżdżą</label>
+    <color>Green</color>
+  </marker>
+  
+  <marker>
+    <position>
+      <x>600</x>
+      <y>122</y>
+    </position>
+    <label>Samoloty latają</label>
+    <color>Yellow</color>
+  </marker>
+  
+ </root>
