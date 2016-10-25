@@ -1,0 +1,53 @@
+<root filename="film.avi" class="video">
+
+  <frame id="1">
+  
+    <marker id="0">
+      <position>
+        <x>60</x>
+        <y>120</y>
+      </position>
+      <label>Tekstowo</label>
+      <color>Yellow</color>
+    </marker>
+    
+    <marker id="1">
+      <position>
+        <x>40</x>
+        <y>40</y>
+      </position>
+      <label>Szybki napis</label>
+      <color>Red</color>
+    </marker>
+    
+  </frame>
+  
+  <frame id="150">
+  
+    <marker id="0">
+      <position>
+        <x>60</x>
+        <y>120</y>
+      </position>
+      <label>Tekstowo</label>
+      <color>Yellow</color>
+    </marker>
+    
+  </frame>
+  
+  <frame id="600">
+  
+    <marker id="2">
+      <position>
+        <x>60</x>
+        <y>120</y>
+      </position>
+      <label>Nastąpiła zmiana!</label>
+      <color>Yellow</color>
+    </marker>
+    
+  </frame>
+  
+  <frame id="1920" />
+  
+</root>
