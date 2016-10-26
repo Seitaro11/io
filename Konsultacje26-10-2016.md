@@ -1,0 +1,16 @@
+Dzień dobry. Z konsultacji wynieśliśmy listę uwag do opisu tekstowego oraz info o tym, co musimy zrobić na następny raz. Najsampierw uwagi:
+ - Gieneralnie tekst jako tekst jest dobry. Nie do końca jest to to co mieliśmy zrobić (o tym niżej), ale mamy go lekko poprawić i zostawić.
+ - Słówko marker jest złem. Zamiast tego nakładamy na obraz ADNOTACJE, któych są trzy rodzaje: marker (pojedynczy punkt), linia (dwa punkty), obszar (dowolna ilość punktów które tworzą zamknięty fragment obrazu, lista punktów). W słowniku nie mamy tego zdefiniowanego.
+ - Nie musi być aż takiego podziału na grupy użytkowników i administratorów, wystarczy jedno konto administratora, ewentualnie ochrona dodatkowych funkcji admina hasłem, które może znać kilka osób. Przypisywanie użytkownikowi naczelnego admina jest do wywalenia.
+ - Zdefiniować dokładniej protokół, jasno określony format, admin nie musi mieć GUI do jego edycji, wystarczy możliwość edytowania w notatniku.
+ - Ustalić sposób zaznaczania, kolejność i algorytm oznaczania kolejnych adnotacji. Na przykład: zamiast zaznaczam wszystkie samochody, i każdemu z nich przypisuje etykietę z kolorem; najpierw zaznaczam niebieskie samochody i przypisuje im się automatycznie etykieta niebieski, potem zaznaczam żółte i przypisuje sie etykieta żółte itd. To do zdefiniowania w protokole.
+ - Nie musi być informacji zwrotnej dla użytkownika ani oceny jego działania, do kontroli wystarczy adminowi nałożenie kilku xmli na obraz. Nie musimy tego wywalać z tekstu, dodać tylko informację że funkcjonalność opcjonalna, ale generalnie więcej się do worklisty / forum z zadaniami nie przywiązywać, bo ten element jest do wywalenia.
+ - Specyfikacja mówi co zrobić, a nie jak to zrobić (za dużo szczegółów użytkowania i interfejsu wpisaliśmy)
+ - Musi być możliwość przenoszenia adntacji z poprzedniej klatki do następnej, najlepiej automatyczna (algorytm wykrywający czy sąsiednie klatki się różnią czy też nie).
+
+To uwagi do tekstu, możemy go lekko zmodyfikować, ale generalnie na końcu mamy dopisać WYMAGANIA FUNKCJONALNE I NIEFUNKCJONALNE. Mają to być krótkie punkty, zagnieżdżona lista podpunktów, z których każdy ma być jednym zdaniem określający jedno wymaganie, i mieć swój identyfikator. Nie skupiać się za bardzo na niefunkcjonalnych wymaganiach (system na którym będzie uruchomione, prędkość działania, łatwość obsługi, np. możliwość zrealizowania protokołu samą myszką bez użytwania klawiatury).
+Ważniejsze są wymagania funkcjonalne, które tak jak napisałem muszą być umieszczone w zagnieżdżonej liście punktów i podpunktów, w zasadzie polega to na skróceniu, usystematyzowaniu i przeklejeniu tego tekstu. Mamy to zebrać, dopisać do pliku i wysłać na platformę.
+Potem mamy zająć się drugim etapem, czyli PRZYPADKI UŻYCIA (do poczytania na platformie, w miejscu na oddawanie sprawozdania jak i w ogólnym opisie przedmiotu). Jak oba etapy będą gotowe to mamy się odezwać do prowadzącego.
+
+Zaczynamy od przetworzenia specyfikacji zgodnie z tym co jest wyżej, potem robimy etap drugi, tak żeby jeszcze w listopadzie móc zacząć robić etap trzeci. Teraz wszystkich świętych więc nie chcę rzucać żadnymi terminami, ale czym szybciej to ogarniemy, tym lepiej dla nas.
+Pzdr,KZ.
